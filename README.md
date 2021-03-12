@@ -1,4 +1,4 @@
-# !!!Replace with your unique project name!!!
+# !!!Palette Analyzer!!!
 
 ## Description
 
@@ -15,7 +15,7 @@
 
 ## Developer
 
-!!!Replace with your name!!!
+Gabriel Delich
 
 ## Example
 
