@@ -1,17 +1,10 @@
 # !!!Palette Analyzer!!!
 
-#My program takes all the colors from the file and prints them out
+#My program takes all the colors from the file and says how many in the file are unique colors. It then will determine based on what color blindness you are if they are compatable with your color blindness
 
 !!!Replace with a description of what your program does!!!
 
-### Now my program counts all the colors in the file and prints them out
-
-*Coming soon*
-
-### Hopefully soon I can find the unique values in the file and tell how many unique colors there are
-
-*Coming soon*
-
+#My program takes all the colors from the file and says how many in the file are unique colors. It then will determine based on what color blindness you are if they are compatable with your color blindness
 
 ## Developer
 
@@ -28,8 +21,14 @@ example.css
 Here is an example of the program running:
 
 ```
-#ffffff;color: #ffffff;color: #404040;color: #bfbfbf;color:inherit;
-There are 1068 unique colors in this file
+Please enter the file to be opened:
+example.css
+
+There are 904 unique colors in this file
+Enter what type of Color Blindness you are:
+(RG,BY,ALL)
+RG
+These colors are compatable with your file
 ```
 
 ## C++ Guide
@@ -42,7 +41,7 @@ We use size_t to find the position of color in our file
 
 ### Console Input and Output
 
-We prompt the user to enter in a file name which then opens up the file and outputs all the data that has 'color' within the file
+We prompt the user to enter in a file name which then opens up the file and counts all the data that has 'color' within the file
 
 ### Decisions
 
@@ -59,12 +58,21 @@ Couldnt figure out how to do that.
 We prompt the user to enter in a file name which then opens up the file and outputs all the data that has 'color' within the file
 ### Arrays/Vectors
 
-*Coming in version 0.2*
+I use vectors in my code to store all the colors that my program finds in a file. This vector is also used to see how many colors are within that file
 
 ### Functions
-
-*Coming in version 0.2*
+I use functions within my class to call upon code that has already been written. For example in my main.cpp to ask the user what type of Color Blindness they are I only use the code:
+color.theBlindness();
+This calls upon code that has already been written in another file
 
 ### Classes
+I made a class called colors
+This class has three functions:
+1)It tells the user what file has been opened:
+"The file *file* has been opened"
+2)Prompts the user to enter what color blindness they are whether its red green, blue yellow, or all colors.
+3) Then based on what they input the program will determine if the colors are compatable with there colorblindness
 
-*Coming in version 1.0*
+This class shows object oriented design as it allows for cleaner code in the main.cpp and gets me closer to the goal of this project by analyzing colors
+
+
