@@ -1,10 +1,6 @@
-# !!!Palette Analyzer!!!
+# Palette Analyzer
 
-#My program takes all the colors from the file and says how many in the file are unique colors. It then will determine based on what color blindness you are if they are compatable with your color blindness
-
-!!!Replace with a description of what your program does!!!
-
-#My program takes all the colors from the file and says how many in the file are unique colors. It then will determine based on what color blindness you are if they are compatable with your color blindness
+# My program takes all the colors from the file and says how many in the file are unique colors. It then will determine based on what color blindness you are if they are compatable with your color blindness
 
 ## Developer
 
@@ -58,7 +54,7 @@ Couldnt figure out how to do that.
 We prompt the user to enter in a file name which then opens up the file and outputs all the data that has 'color' within the file
 ### Arrays/Vectors
 
-I use vectors in my code to store all the colors that my program finds in a file. This vector is also used to see how many colors are within that file
+I use the vector called [items] in my code to store all the colors that my program finds in a file. This vector is also used to see how many colors are within that file
 
 ### Functions
 I use functions within my class to call upon code that has already been written. For example in my main.cpp to ask the user what type of Color Blindness they are I only use the code:
