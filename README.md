@@ -1,6 +1,15 @@
 # Palette Analyzer
 
-# My program takes all the colors from the file and says how many in the file are unique colors. It then will determine based on what color blindness you are if they are compatable with your color blindness
+## Discription
+ My program takes all the colors from the file and says how many in the file are unique colors. It then will determine based on what color blindness you are if they are compatable with your color blindness
+
+##v0.1 updates
+
+  My file finds all the colors in the file and prints them out
+
+##v0.2 updates
+
+  My program counts all of the colors within the file
 
 ## Developer
 
